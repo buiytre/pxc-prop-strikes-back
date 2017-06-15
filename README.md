@@ -4,6 +4,8 @@ Project for the subject PXC from UPC:  Client - Server structure for a game dist
 This is a project made for the PXC subject from UPC that simulates an arquitecture of multiple Servers and clients.
 
 Every Server controls a zone in the game and the client can "navigate" between this zones and be redirected to the server that it belongs.
+
+execution
 ---
 //LOGIN sControl sJugador
 pxc-prop-strikes-back/servlogin$ bin/Login  3457 3450
@@ -23,6 +25,8 @@ pxc-prop-strikes-back/servrouter/bin$ ./router 3455 3456
 
 //cliente
 pxc-prop-strikes-back/cliente/bin$ ./client 127.0.0.1 3450 user1 user1
+
+idInstructions
 ---
 De 150 a 200: instrucciones entre router y servidor de juegos
 150: AddRouterSend - AddRouterRcvd
